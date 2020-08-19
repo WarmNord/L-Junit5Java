@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="340ff37f-85eb-49d3-846b-c03254e4463d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="9eef42fc-69ee-426a-abec-5c9155ca55e1" />
+  </component>
+  <component name="ProjectId" id="1g2sci4LvSDUsFtxLyxsnyXkcAB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.MathUtilsTest">
+    <configuration type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="L-Junit5Java" />
+      <useClassPathOnly />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MathUtilsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="L-Junit5Java" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MathUtilsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MathUtilsTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="340ff37f-85eb-49d3-846b-c03254e4463d" name="Default Changelist" comment="" />
+      <created>1597324102843</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597324102843</updated>
+      <workItem from="1597324105364" duration="1419000" />
+      <workItem from="1597395904645" duration="3298000" />
+      <workItem from="1597663579133" duration="1763000" />
+      <workItem from="1597686290401" duration="1025000" />
+      <workItem from="1597829673535" duration="600000" />
+      <workItem from="1597832785062" duration="1198000" />
+      <workItem from="1597851755678" duration="995000" />
+    </task>
+    <task id="LOCAL-00001" summary="1 cmt">
+      <created>1597852684167</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1597852684167</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+    <MESSAGE value="1 cmt" />
+    <option name="LAST_COMMIT_MESSAGE" value="1 cmt" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1043" y="105" key="#All_in_L-Junit5Java" timestamp="1597407735308">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1043" y="105" key="#All_in_L-Junit5Java/0.0.1920.1040@0.0.1920.1040" timestamp="1597407735308" />
+    <state x="1043" y="126" key="#MathUtilsTest.add" timestamp="1597408031940">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1043" y="126" key="#MathUtilsTest.add/0.0.1920.1040@0.0.1920.1040" timestamp="1597408031940" />
+    <state x="828" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597852459183">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="828" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597852459183" />
+    <state x="1220" y="227" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1597407721056">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1220" y="227" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597407721056" />
+    <state x="1035" y="88" key="CommitChangelistDialog2" timestamp="1597852683699">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1035" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1597852683699" />
+    <state x="1268" y="399" key="Github.ShareDialog" timestamp="1597852586331">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1268" y="399" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597852586331" />
+    <state width="916" height="281" key="GridCell.Tab.0.bottom" timestamp="1597686741728">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="916" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597686741728" />
+    <state width="916" height="281" key="GridCell.Tab.0.center" timestamp="1597686741728">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="916" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597686741728" />
+    <state width="916" height="281" key="GridCell.Tab.0.left" timestamp="1597686741728">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="916" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597686741728" />
+    <state width="916" height="281" key="GridCell.Tab.0.right" timestamp="1597686741728">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="916" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597686741728" />
+    <state width="916" height="344" key="GridCell.Tab.1.bottom" timestamp="1597686706879">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="916" height="344" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597686706879" />
+    <state width="916" height="344" key="GridCell.Tab.1.center" timestamp="1597686706879">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="916" height="344" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597686706879" />
+    <state width="916" height="344" key="GridCell.Tab.1.left" timestamp="1597686706879">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="916" height="344" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597686706879" />
+    <state width="916" height="344" key="GridCell.Tab.1.right" timestamp="1597686706879">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="916" height="344" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597686706879" />
+    <state x="922" y="164" key="SettingsEditor" timestamp="1597852750365">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="922" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1597852750365" />
+    <state x="1032" y="252" key="Vcs.Push.Dialog.v2" timestamp="1597852688234">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1032" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597852688234" />
+    <state x="1249" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597852529824">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1249" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597852529824" />
+    <state x="1211" y="345" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1597407826349">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1211" y="345" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597407826349" />
+    <state x="342" y="180" key="new project wizard" timestamp="1597325257537">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="342" y="180" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1597325257537" />
+  </component>
+</project>
