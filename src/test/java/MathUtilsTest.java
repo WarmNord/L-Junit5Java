@@ -9,7 +9,7 @@ import static org.junit.jupiter.api.Assumptions.*;
 
 
 /*
-20
+25
  */
 
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
@@ -33,6 +33,7 @@ class MathUtilsTest {
 
     @Nested
     @DisplayName("Test Add")
+    @Tag("Math")
     class addTest {
         @Test
         @DisplayName("Test add +")
@@ -74,6 +75,7 @@ class MathUtilsTest {
 
     @Test
     @DisplayName("Multiply method")
+    @Tag("Math")
     void multiply() {
         assertAll(
                 () -> assertEquals(4, mathUtils.multiply(2, 2)),
@@ -86,6 +88,7 @@ class MathUtilsTest {
 
     @Test
     @DisplayName("Test Divide")
+    @Tag("Math")
     void divideTest() {
         boolean value = true;
         assumeTrue(value);
@@ -96,6 +99,7 @@ class MathUtilsTest {
     @Test
     @Disabled
     @DisplayName("TDD method. Should not run")
+    @Tag("disabled")
     void testDisabled() {
         fail("This test should be disabled");
     }
