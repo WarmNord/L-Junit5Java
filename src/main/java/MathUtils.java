@@ -1,3 +1,7 @@
+import javafx.beans.binding.Bindings;
+
+import java.util.*;
+
 import static java.lang.Math.PI;
 
 public class MathUtils {
@@ -21,8 +25,7 @@ public class MathUtils {
 
 
     public int[] arr(int a, int b, int c, int d) {
-        int[] z = new int[]{a, b, c, d};
-        return z;
+        return new int[]{a, b, c, d};
     }
 
     public double computeCircleArea(double radius) {

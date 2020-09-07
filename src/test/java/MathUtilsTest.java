@@ -3,6 +3,7 @@ import org.junit.jupiter.api.condition.EnabledOnJre;
 import org.junit.jupiter.api.condition.EnabledOnOs;
 import org.junit.jupiter.api.condition.JRE;
 import org.junit.jupiter.api.condition.OS;
+
 import static org.junit.jupiter.api.Assertions.*;
 import static org.junit.jupiter.api.Assumptions.*;
 
@@ -30,19 +31,32 @@ class MathUtilsTest {
         System.out.println("Test passed");
     }
 
-    @Test
-    @EnabledOnOs(OS.MAC)
-    @DisplayName("01 Test add")
-    void addTest() {
+    @Nested
+    @DisplayName("Test Add")
+    class addTest {
+        @Test
+        @DisplayName("Test add +")
+        void addTestPositive() {
 
-        int expected = 2;
-        int actual = mathUtils.add(1, 1);
-        assertEquals(expected, actual);
+            int expected = 2;
+            int actual = mathUtils.add(1, 1);
+            assertEquals(expected, actual);
+        }
+
+        @Test
+        @DisplayName("Test add -")
+        void addTestNegative() {
+
+            int expected = -2;
+            int actual = mathUtils.add(-1, -1);
+            assertEquals(expected, actual, () ->"should return" + expected +
+                    "but return" + actual);
+        }
     }
 
-    @EnabledOnJre(JRE.JAVA_10)
+
     @Test
-    @DisplayName("02 Test Array")
+    @DisplayName("Test Array")
     void arrTest() {
         int[] expected = {1, 2, 3, 4};
         int[] actual = mathUtils.arr(1, 2, 3, 4);
@@ -50,14 +64,26 @@ class MathUtilsTest {
     }
 
     @Test
-    @DisplayName("03 Test Circle")
+    @DisplayName("Test Circle")
     void computeCircleAreaTest() {
         assertEquals(314.1592653589793, mathUtils.computeCircleArea(10),
                 "Should return right circle area");
     }
 
     @Test
-    @DisplayName("04 Test Divide")
+    @DisplayName("Multiply method")
+    void multiply() {
+        assertAll(
+                () -> assertEquals(4, mathUtils.multiply(2, 2)),
+                () -> assertEquals(0, mathUtils.multiply(2, 0)),
+                () -> assertEquals(0, mathUtils.multiply(2, 0)),
+                () -> assertEquals(2, mathUtils.multiply(-2, -1))
+        );
+
+    }
+
+    @Test
+    @DisplayName("Test Divide")
     void divideTest() {
         boolean value = true;
         assumeTrue(value);
