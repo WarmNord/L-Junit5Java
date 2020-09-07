@@ -63,9 +63,11 @@ class MathUtilsTest {
         assertArrayEquals(expected, actual);
     }
 
-    @Test
+    @RepeatedTest(3)
     @DisplayName("Test Circle")
-    void computeCircleAreaTest() {
+    void computeCircleAreaTest(RepetitionInfo repetitionInfo) {
+        System.out.println(repetitionInfo.getCurrentRepetition());
+        System.out.println(repetitionInfo.getTotalRepetitions());
         assertEquals(314.1592653589793, mathUtils.computeCircleArea(10),
                 "Should return right circle area");
     }

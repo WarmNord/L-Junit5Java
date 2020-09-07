@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="340ff37f-85eb-49d3-846b-c03254e4463d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestingAStackDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MathUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MathUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/MathUtilsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MathUtilsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +64,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MathUtilsTest">
+  <component name="RunManager" selected="JUnit.MathUtilsTest.computeCircleAreaTest">
     <configuration type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="L-Junit5Java" />
       <useClassPathOnly />
@@ -75,13 +73,6 @@
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <option name="PARAMETERS" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MathUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MathUtils" />
-      <module name="L-Junit5Java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -106,11 +97,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MathUtilsTest.divideTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MathUtilsTest.computeCircleAreaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="L-Junit5Java" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MathUtilsTest" />
-      <option name="METHOD_NAME" value="divideTest" />
+      <option name="METHOD_NAME" value="computeCircleAreaTest(org.junit.jupiter.api.RepetitionInfo)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -126,6 +117,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RepeatedTestsDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="L-Junit5Java" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RepeatedTestsDemo" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestingAStackDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="L-Junit5Java" />
       <option name="PACKAGE_NAME" value="" />
@@ -137,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MathUtilsTest.computeCircleAreaTest" />
         <item itemvalue="JUnit.MathUtilsTest" />
+        <item itemvalue="JUnit.RepeatedTestsDemo" />
         <item itemvalue="JUnit.MathUtilsTest.multiply" />
         <item itemvalue="JUnit.TestingAStackDemo" />
-        <item itemvalue="Application.MathUtils" />
-        <item itemvalue="JUnit.MathUtilsTest.divideTest" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +171,7 @@
       <workItem from="1598944870853" duration="3178000" />
       <workItem from="1598960159590" duration="2671000" />
       <workItem from="1599155227090" duration="5026000" />
-      <workItem from="1599193613008" duration="2908000" />
+      <workItem from="1599193613008" duration="6075000" />
     </task>
     <task id="LOCAL-00001" summary="1 cmt">
       <created>1597852684167</created>
@@ -187,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598987623228</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="20 Nested">
+      <created>1599490238323</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1599490238323</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,7 +206,8 @@
     </ignored-roots>
     <MESSAGE value="1 cmt" />
     <MESSAGE value="2 cmt" />
-    <option name="LAST_COMMIT_MESSAGE" value="2 cmt" />
+    <MESSAGE value="20 Nested" />
+    <option name="LAST_COMMIT_MESSAGE" value="20 Nested" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1043" y="105" key="#All_in_L-Junit5Java" timestamp="1597407735308">
@@ -226,10 +234,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1220" y="227" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597407721056" />
-    <state x="1025" y="125" key="CommitChangelistDialog2" timestamp="1598987622715">
+    <state x="1018" y="93" key="CommitChangelistDialog2" timestamp="1599490237831">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1025" y="125" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1598987622715" />
+    <state x="1018" y="93" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1599490237831" />
     <state x="733" y="286" width="710" height="237" key="Github.ShareDialog" timestamp="1597852833204">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -238,26 +246,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="702" y="217" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597852886895" />
-    <state width="916" height="436" key="GridCell.Tab.0.bottom" timestamp="1599198725690">
+    <state width="916" height="278" key="GridCell.Tab.0.bottom" timestamp="1599493496310">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="362" height="209" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598208798785" />
-    <state width="916" height="436" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599198725690" />
-    <state width="916" height="436" key="GridCell.Tab.0.center" timestamp="1599198725690">
+    <state width="916" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599493496310" />
+    <state width="916" height="278" key="GridCell.Tab.0.center" timestamp="1599493496310">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="362" height="209" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1598208798784" />
-    <state width="916" height="436" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599198725690" />
-    <state width="916" height="436" key="GridCell.Tab.0.left" timestamp="1599198725690">
+    <state width="916" height="278" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599493496310" />
+    <state width="916" height="278" key="GridCell.Tab.0.left" timestamp="1599493496309">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="362" height="209" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1598208798784" />
-    <state width="916" height="436" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599198725690" />
-    <state width="916" height="436" key="GridCell.Tab.0.right" timestamp="1599198725690">
+    <state width="916" height="278" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599493496309" />
+    <state width="916" height="278" key="GridCell.Tab.0.right" timestamp="1599493496310">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="362" height="209" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1598208798785" />
-    <state width="916" height="436" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599198725690" />
+    <state width="916" height="278" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599493496310" />
     <state width="914" height="346" key="GridCell.Tab.1.bottom" timestamp="1598523955981">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -278,10 +286,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="922" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1597852750365" />
-    <state x="1032" y="252" key="Vcs.Push.Dialog.v2" timestamp="1598987628549">
+    <state x="1032" y="252" key="Vcs.Push.Dialog.v2" timestamp="1599490241931">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1032" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1598987628549" />
+    <state x="1032" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599490241931" />
     <state x="1249" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598987637552">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -290,6 +298,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1211" y="345" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597407826349" />
+    <state x="1170" y="281" key="extract.method.dialog" timestamp="1599490172072">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1170" y="281" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599490172072" />
     <state x="510" y="217" key="new project wizard" timestamp="1599198648288">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
