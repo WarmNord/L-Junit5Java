@@ -9,12 +9,15 @@ import static org.junit.jupiter.api.Assumptions.*;
 
 
 /*
-25
+27
  */
 
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 class MathUtilsTest {
     MathUtils mathUtils;
+    TestInfo testInfo;
+    TestReporter testReporter;
+
 
     @BeforeAll
     static void beforeAllInit() {
@@ -22,8 +25,12 @@ class MathUtilsTest {
     }
 
     @BeforeEach
-    void init() {
+    void init(TestInfo testInfo, TestReporter testReporter) {
+        this.testInfo = testInfo;
+        this.testReporter = testReporter;
         mathUtils = new MathUtils();
+        testReporter.publishEntry("Running " + testInfo.getDisplayName() + " tags " + testInfo.getTags());
+
     }
 
     @AfterEach
